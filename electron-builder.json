@@ -1,0 +1,15 @@
+{
+    "appId": "com.example.my-desktop-app",
+    "files": ["dist-electron", "dist-react"],
+    "mac": {
+        "target": "dmg"
+    },
+    "win": {
+        "target": ["portable", "msi"]
+    },
+    "linux": {
+        "target": "AppImage",
+        "category": "Utility"
+    }
+    
+}
